@@ -2,6 +2,7 @@ package com.example.addressbookapp.service;
 
 import com.example.addressbookapp.dto.AddressBookDTO;
 import com.example.addressbookapp.model.AddressBookData;
+import com.example.addressbookapp.exception.AddressBookException;
 
 import java.util.List;
 

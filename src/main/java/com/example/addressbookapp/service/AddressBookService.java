@@ -6,6 +6,7 @@ import com.example.addressbookapp.repository.AddressBookRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.example.addressbookapp.exception.AddressBookException;
 
 import java.util.List;
 
@@ -25,7 +26,7 @@ public class AddressBookService implements IAddressBookService {
     @Override
     public AddressBookData getContactById(int id) {
         log.info("Fetching contact by id: {}", id);
-        return repository.findById(id).orElse(null);
+        return repository.findById(id).orElseThrow(() -> new AddressBookException("Contact with ID " + id + " not found"));
     }
 
     @Override
@@ -56,6 +57,7 @@ public class AddressBookService implements IAddressBookService {
     @Override
     public void deleteContact(int id) {
         log.info("Deleting contact with id: {}", id);
-        repository.deleteById(id);
+        AddressBookData contact = repository.findById(id).orElseThrow(() -> new AddressBookException("Contact with ID " + id + " not found"));            
+        repository.delete(contact);
     }
 }
