@@ -14122,8 +14122,10 @@ java.io.EOFException: null
 2025-05-24T11:02:21.578+05:30 DEBUG 8124 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@214fd7e0: (connection evicted)
 2025-05-24T11:02:21.580+05:30 DEBUG 8124 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
 2025-05-24T11:02:21.580+05:30  INFO 8124 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-<<<<<<< Updated upstream
-=======
+HEAD
+Updated upstream
+
+uc11-validation-error-handler
 2025-05-24T15:24:27.605+05:30 DEBUG 12668 --- [background-preinit] org.jboss.logging                        : Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
 2025-05-24T15:24:27.620+05:30 DEBUG 12668 --- [background-preinit] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
 2025-05-24T15:24:27.623+05:30 DEBUG 12668 --- [background-preinit] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
@@ -17630,6 +17632,7 @@ java.io.EOFException: null
 2025-05-24T15:36:41.886+05:30 DEBUG 12668 --- [RMI TCP Connection(20)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(20)-127.0.0.1: (port 8170) connection closed
 2025-05-24T15:36:41.887+05:30 DEBUG 12668 --- [RMI TCP Connection(20)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(20)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=8648,localport=8170]
 2025-05-24T15:36:41.887+05:30 DEBUG 12668 --- [RMI TCP Connection(20)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(20)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=8648,localport=8170]
+HEAD
 2025-05-24T15:37:01.032+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2025-05-24T15:37:01.032+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
 2025-05-24T15:37:26.892+05:30 DEBUG 12668 --- [RMI TCP Connection(21)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(21)-127.0.0.1: accepted socket from [127.0.0.1:8651]
@@ -17727,3 +17730,5 @@ java.io.EOFException: null
 2025-05-24T15:39:49.243+05:30 DEBUG 12668 --- [RMI TCP Connection(23)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
 2025-05-24T15:39:49.243+05:30  INFO 12668 --- [RMI TCP Connection(23)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 >>>>>>> Stashed changes
+=======
+>>>>>>> uc11-validation-error-handler
