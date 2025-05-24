@@ -6,11 +6,13 @@ import com.example.addressbookapp.service.IAddressBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.validation.annotation.Validated;
+import jakarta.validation.Valid;
 import java.util.List;
 
 @RestController
 @RequestMapping("/addressbook")
+@Validated
 public class AddressBookController {
 
     @Autowired
@@ -28,12 +30,12 @@ public class AddressBookController {
     }
 
     @PostMapping
-    public ResponseEntity<AddressBookData> create(@RequestBody AddressBookDTO dto) {
+    public ResponseEntity<AddressBookData> create(@Valid @RequestBody AddressBookDTO dto) {
         return ResponseEntity.ok(service.createContact(dto));
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<AddressBookData> update(@PathVariable int id, @RequestBody AddressBookDTO dto) {
+    public ResponseEntity<AddressBookData> update(@PathVariable int id,@Valid @RequestBody AddressBookDTO dto) {
         AddressBookData updated = service.updateContact(id, dto);
         return updated != null ? ResponseEntity.ok(updated) : ResponseEntity.notFound().build();
     }
