@@ -17558,3 +17558,33 @@ java.io.EOFException: null
 2025-05-24T15:30:26.833+05:30 DEBUG 12668 --- [RMI TCP Connection(14)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
 2025-05-24T15:30:30.927+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2025-05-24T15:30:30.927+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-05-24T15:30:41.835+05:30 DEBUG 12668 --- [RMI TCP Connection(14)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(14)-127.0.0.1: (port 8170) connection closed
+2025-05-24T15:30:41.835+05:30 DEBUG 12668 --- [RMI TCP Connection(14)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(14)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=8583,localport=8170]
+2025-05-24T15:30:41.835+05:30 DEBUG 12668 --- [RMI TCP Connection(14)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(14)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=8583,localport=8170]
+2025-05-24T15:31:00.942+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-24T15:31:00.942+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-05-24T15:31:26.840+05:30 DEBUG 12668 --- [RMI TCP Connection(15)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(15)-127.0.0.1: accepted socket from [127.0.0.1:8620]
+2025-05-24T15:31:26.841+05:30 DEBUG 12668 --- [RMI TCP Connection(15)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(15)-127.0.0.1: (port 8170) op = 80
+2025-05-24T15:31:26.842+05:30 DEBUG 12668 --- [RMI TCP Connection(15)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2025-05-24T15:31:30.947+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-24T15:31:30.948+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-05-24T15:31:41.847+05:30 DEBUG 12668 --- [RMI TCP Connection(15)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(15)-127.0.0.1: (port 8170) connection closed
+2025-05-24T15:31:41.847+05:30 DEBUG 12668 --- [RMI TCP Connection(15)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(15)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=8620,localport=8170]
+2025-05-24T15:31:41.847+05:30 DEBUG 12668 --- [RMI TCP Connection(15)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(15)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=8620,localport=8170]
+2025-05-24T15:32:00.949+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-24T15:32:00.949+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-05-24T15:32:26.850+05:30 DEBUG 12668 --- [RMI TCP Connection(16)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(16)-127.0.0.1: accepted socket from [127.0.0.1:8625]
+2025-05-24T15:32:26.851+05:30 DEBUG 12668 --- [RMI TCP Connection(16)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(16)-127.0.0.1: (port 8170) op = 80
+2025-05-24T15:32:26.851+05:30 DEBUG 12668 --- [RMI TCP Connection(16)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2025-05-24T15:32:30.958+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-24T15:32:30.958+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-05-24T15:32:41.852+05:30 DEBUG 12668 --- [RMI TCP Connection(16)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(16)-127.0.0.1: (port 8170) connection closed
+2025-05-24T15:32:41.853+05:30 DEBUG 12668 --- [RMI TCP Connection(16)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(16)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=8625,localport=8170]
+2025-05-24T15:32:41.853+05:30 DEBUG 12668 --- [RMI TCP Connection(16)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(16)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=8625,localport=8170]
+2025-05-24T15:33:00.970+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-24T15:33:00.970+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-05-24T15:33:26.858+05:30 DEBUG 12668 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(17)-127.0.0.1: accepted socket from [127.0.0.1:8627]
+2025-05-24T15:33:26.859+05:30 DEBUG 12668 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(17)-127.0.0.1: (port 8170) op = 80
+2025-05-24T15:33:26.859+05:30 DEBUG 12668 --- [RMI TCP Connection(17)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2025-05-24T15:33:30.973+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-24T15:33:30.973+05:30 DEBUG 12668 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
